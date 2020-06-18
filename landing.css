@@ -1,542 +1,211 @@
+@media only screen and (min-width: 888px) {
 
+html
 body {
 
-background: #232323;
-background-repeat: no-repeat;
+  height: 100%;
+background-color: #3a3b3c;
 
-background-attachment: fixed;
-background-size: cover;
-background-blend-mode: lighten;
+overflow: hidden;
+
 }
 
+.container {
+min-height: 100%;
+}
 
-
-.title {
-
-  background-image: url(gaming.jpg);
-  background-size: cover;
+.container:hover {
+  color: grey;
+}
+.containerr {
   position: absolute;
-  top: 0%;
-  left: 0%;
-height:40%;;
-  width: 100%;
-  background-repeat: no-repeat;
+height: 50%;
+width:60%;
+border-bottom: solid #116860 5px;
+background-color: grey;
+left: 20%;
+top:10%;
+z-index: auto;
+text-align: center;
+overflow: hidden;
+}
 
 
+.containerr img {
+position: absolute;
+left: 0%;
+width: 500px;
+height: 500px;;
+z-index: 10;
+overflow: hidden;
+
+}
+ h1 {
+  color: #116860;
+position: absolute;
+left: 20%;
+top: 0%;
+font-size: 10vw;
+z-index: 1;
+text-shadow: 5px 5px black;
+font-family: 'Racing Sans One', cursive;
 
 
 }
-.title img {
+.socials {
+  position: absolute;
+  height: 10%;
+width: 100%;
+left: 50%;
 
-  width:100%;
-  height:auto;
+}
+.containerr .insta {
+  background-image: url(insta.webp);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+position: absolute;
+  height: 100px;
+  width: 10%;
+  left: 55%;
+  top: 20%;
+  z-index: 1;
+
+}
+.containerr .facey {
+  background-image: url(facey.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+position: absolute;
+  height: 100px;
+  width: 10%;
+  left: 88%;
+  top: 20%;
+  z-index: 1;
+}
+.containerr .youtube {
+  background-image: url(youtube.webp);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+position: absolute;
+  height: 100px;
+  width: 10%;
+  left: 77%;
+  top: 20%;
+  z-index: 1;
+}
+.containerr .twitter {
+  background-image: url(twit.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+position: absolute;
+  height: 100px;
+  width: 10%;
+  left: 66%;
+  top: 20%;
+  z-index: 1;
+}
+
+
+.containerr .Enter h3
+ {
+   color: black;
+   height: 15%;
+   width: 20%;
+   background-color:#116860;
+  position: absolute;
+  top: 80%;
+  left: 65%;
+  border: outset black 5px;
+  font-weight: bolder;
+  opacity: 0.7;
+  border-radius: 50px;
+
+
+}
+.Enter:hover h3 {
+
+  opacity: 1;
+  cursor: crosshair;
+  border: inset black 5px;
+}
+.container-fluid {
+
+position: absolute;
+left: 0%;
+top: 61%;
+height: 40%;
+width: 100%;
+
+}
 
 
 
 }
 .bar {
-
-position: absolute;
-width: 100%;
-top:85%;
-height: 15%;
-left: 0%;
-background-color: orange;
-z-index: 11;
-
-
-}
-.bar marquee {
-  font-family: 'Black Ops One', cursive;
-
-
-  font-weight: bold;
-  font-size: 5vh;
-}
-
-.bsg {
-
-text-shadow: 10px 10px orange;
-  color: white;
-  position: absolute;
-  font-display: block;
-  font-weight: 1900;
-  font-style: oblique;
-  top: 10%;
-  left: 0%;
-  display: block;
-  float: none;
-  position: relative;
-  font-family: 'Lalezar', cursive;
-  z-index: 12;
-  opacity: .9;
-
-}
-
-.bsg h1 {
-  font-size: 200px;
+  color: black;
+font-size: 20px;
+background-color: #116860;
 }
 
 
-
-
-.cont {
-  top: 45%;
-left: 5px;
-  display: grid;
-  grid-gap: 100px;
-  grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
-  grid-template-rows: repeat(8, 375px);
-
-position: absolute;
-
-width: 100%;
-
-height: 100vh;
-
-}
-
-.page {
-  word-wrap: break-word;
-  text-align: center;
-  color: orange;
-  font-size: 10vh;
-background-image: url(texture.jpg);
-border-radius: 20px;
-margin: auto;
-
- }
-
-
-
- .page1 {
-   top: 10%;
-   word-wrap: normal;
-   text-align: center;
-   color: orange;
-   font-size: 8vh;
- background-image: url(texture.jpg);
- border-radius: 20px;
-
-
-  }
-  .page2 {
-    text-align: center;
-    color: orange;
-    font-size: 10vh;
-  background-image: url(texture.jpg);
-  border-radius: 20px;
-
-   }
-   .page3 {
-     text-align: center;
-     color: orange;
-     font-size: 10vh;
-   background-image: url(texture.jpg);
-   border-radius: 20px;
-
-    }
-    .page4 {
-      text-align: center;
-      color: orange;
-      font-size: 10vh;
-    background-image: url(texture.jpg);
-    border-radius: 20px;
-
-     }
-     .page5 {
-       text-align: center;
-       color: orange;
-       font-size: 10vh;
-     background-image: url(texture.jpg);
-     border-radius: 20px;
-
-      }
-      .page6 {
-        text-align: center;
-        color: orange;
-        font-size: 10vh;
-      background-image: url(texture.jpg);
-      border-radius: 20px;
-
-       }
-       .page7 {
-         text-align: center;
-         color: orange;
-         font-size: 10vh;
-       background-image: url(texture.jpg);
-       border-radius: 20px;
-
-        }
-        .page8 {
-          text-align: center;
-          color: orange;
-          font-size: 10vh;
-        background-image: url(texture.jpg);
-        border-radius: 20px;
-
-         }
-         .page img {
-           height: 100%;
-             width: 100%;
-             transition: transform .8s cubic-bezier(.25,.46,.45,.94);
-           overflow: hidden;
-         }
-         .page:hover img {
-           transform: scale(1.1);
-           text-transform: capitalize;
-             display: block;
-             overflow: hidden;
-         }
-         .page1 img {
-           height: 100%;
-             width: 100%;
-             transition: transform .8s cubic-bezier(.25,.46,.45,.94);
-           overflow: hidden;
-         }
-         .page1:hover img {
-           transform: scale(1.1);
-           text-transform: capitalize;
-             display: block;
-             overflow: hidden;
-         }
-
-         .page2 img {
-           height: 100%;
-             width: 100%;
-             transition: transform .8s cubic-bezier(.25,.46,.45,.94);
-           overflow: hidden;
-         }
-         .page2:hover img {
-           transform: scale(1.1);
-           text-transform: capitalize;
-             display: block;
-             overflow: hidden;
-         }
-
-         .page3 img {
-           height: 100%;
-             width: 100%;
-             transition: transform .8s cubic-bezier(.25,.46,.45,.94);
-           overflow: hidden;
-         }
-         .page3:hover img {
-           transform: scale(1.1);
-           text-transform: capitalize;
-             display: block;
-             overflow: hidden;
-         }
-
-         .page4 img {
-           height: 100%;
-             width: 100%;
-             transition: transform .8s cubic-bezier(.25,.46,.45,.94);
-           overflow: hidden;
-         }
-         .page4:hover img {
-           transform: scale(1.1);
-           text-transform: capitalize;
-             display: block;
-             overflow: hidden;
-         }
-
-         .page5 img {
-           height: 100%;
-             width: 100%;
-             transition: transform .8s cubic-bezier(.25,.46,.45,.94);
-           overflow: hidden;
-         }
-         .page5:hover img {
-           transform: scale(1.1);
-           text-transform: capitalize;
-             display: block;
-             overflow: hidden;
-         }
-
-         .page6 img {
-           height: 100%;
-             width: 100%;
-             transition: transform .8s cubic-bezier(.25,.46,.45,.94);
-           overflow: hidden;
-         }
-         .page6:hover img {
-           transform: scale(1.1);
-           text-transform: capitalize;
-             display: block;
-             overflow: hidden;
-         }
-
-         .page7 img {
-           height: 100%;
-             width: 100%;
-             transition: transform .8s cubic-bezier(.25,.46,.45,.94);
-           overflow: hidden;
-         }
-         .page7:hover img {
-           transform: scale(1.1);
-           text-transform: capitalize;
-             display: block;
-             overflow: hidden;
-         }
-
-
-
-@media only screen and (max-width: 888px){
-
-  .bsg {
+.container1 {
+  color: Black;
 text-align: center;
-  text-shadow: 10px 10px orange;
-    color: white;
-    position: absolute;
-    font-display: block;
-    font-weight: 1900;
-    font-style: oblique;
-    top: 30%;
-    left: 0%;
-    display: block;
-    float: none;
-    position: relative;
-    font-family: 'Lalezar', cursive;
-    z-index: 10;
-    opacity: .9;
-
-  }
-  .bsg h1 {
-    font-size: 5vh;
-  }
-  .title {
-
-    background-image: url(gaming.jpg);
-    background-size: cover;
-    position: absolute;
-    top: 0%;
-    left: 0%;
-  height:30%;;
-    width: 100%;
-    background-repeat: no-repeat;
-  }
-
-    .bar {
-
-    position: absolute;
-    width: 100%;
-    top:85%;
-    height: 15%;
-    left: 0%;
-    background-color: orange;
-    z-index: 11;
-
-
-    }
-    .bar marquee {
-      font-family: 'Black Ops One', cursive;
-
-
-      font-weight: bold;
-      font-size: 2vh;
-    }
-    .cont {
-      top: 40%;
-    left: 5px;
-      display: grid;
-      grid-gap: 50px;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      grid-template-rows: repeat(8, 200px);
-
-    position: absolute;
-
-    width: 100%;
-
-    height: 100vh;
-
-    }
-
-    .page {
-      top: 10%;
-      word-wrap: normal;
-      text-align: center;
-      color: orange;
-      font-size: 8vh;
-    background-image: url(texture.jpg);
-    border-radius: 20px;
-
-
-     }
-
-
-
-     .page1 {
-       top: 10%;
-       word-wrap: normal;
-       text-align: center;
-       color: orange;
-       font-size: 8vh;
-     background-image: url(texture.jpg);
-     border-radius: 20px;
-
-      }
-      .page2 {
-        text-align: center;
-        color: orange;
-        font-size: 10vh;
-      background-image: url(texture.jpg);
-      border-radius: 20px;
-
-       }
-       .page3 {
-         text-align: center;
-         color: orange;
-         font-size: 10vh;
-       background-image: url(texture.jpg);
-       border-radius: 20px;
-
-        }
-        .page4 {
-          text-align: center;
-          color: orange;
-          font-size: 10vh;
-        background-image: url(texture.jpg);
-        border-radius: 20px;
-
-         }
-         .page5 {
-           text-align: center;
-           color: orange;
-           font-size: 10vh;
-         background-image: url(texture.jpg);
-         border-radius: 20px;
-
-          }
-          .page6 {
-            text-align: center;
-            color: orange;
-            font-size: 10vh;
-          background-image: url(texture.jpg);
-          border-radius: 20px;
-
-           }
-           .page7 {
-             text-align: center;
-             color: orange;
-             font-size: 10vh;
-           background-image: url(texture.jpg);
-           border-radius: 20px;
-
-            }
-            .page8 {
-              text-align: center;
-              color: orange;
-              font-size: 10vh;
-            background-image: url(texture.jpg);
-            border-radius: 20px;
-
-             }
-             .page img {
-               height: 100%;
-                 width: 100%;
-                 transition: transform .8s cubic-bezier(.25,.46,.45,.94);
-               overflow: hidden;
-             }
-             .page:hover img {
-               transform: scale(1.1);
-               text-transform: capitalize;
-                 display: block;
-                 overflow: hidden;
-             }
-             .page1 img {
-               height: 100%;
-                 width: 100%;
-                 transition: transform .8s cubic-bezier(.25,.46,.45,.94);
-               overflow: hidden;
-             }
-             .page1:hover img {
-               transform: scale(1.1);
-               text-transform: capitalize;
-                 display: block;
-                 overflow: hidden;
-             }
-
-             .page2 img {
-               height: 100%;
-                 width: 100%;
-                 transition: transform .8s cubic-bezier(.25,.46,.45,.94);
-               overflow: hidden;
-             }
-             .page2:hover img {
-               transform: scale(1.1);
-               text-transform: capitalize;
-                 display: block;
-                 overflow: hidden;
-             }
-
-             .page3 img {
-               height: 100%;
-                 width: 100%;
-                 transition: transform .8s cubic-bezier(.25,.46,.45,.94);
-               overflow: hidden;
-             }
-             .page3:hover img {
-               transform: scale(1.1);
-               text-transform: capitalize;
-                 display: block;
-                 overflow: hidden;
-             }
-
-             .page4 img {
-               height: 100%;
-                 width: 100%;
-                 transition: transform .8s cubic-bezier(.25,.46,.45,.94);
-               overflow: hidden;
-             }
-             .page4:hover img {
-               transform: scale(1.1);
-               text-transform: capitalize;
-                 display: block;
-                 overflow: hidden;
-             }
-
-             .page5 img {
-               height: 100%;
-                 width: 100%;
-                 transition: transform .8s cubic-bezier(.25,.46,.45,.94);
-               overflow: hidden;
-             }
-             .page5:hover img {
-               transform: scale(1.1);
-               text-transform: capitalize;
-                 display: block;
-                 overflow: hidden;
-             }
-
-             .page6 img {
-               height: 100%;
-                 width: 100%;
-                 transition: transform .8s cubic-bezier(.25,.46,.45,.94);
-               overflow: hidden;
-             }
-             .page6:hover img {
-               transform: scale(1.1);
-               text-transform: capitalize;
-                 display: block;
-                 overflow: hidden;
-             }
-
-             .page7 img {
-               height: 100%;
-                 width: 100%;
-                 transition: transform .8s cubic-bezier(.25,.46,.45,.94);
-               overflow: hidden;
-             }
-             .page7:hover img {
-               transform: scale(1.1);
-               text-transform: capitalize;
-                 display: block;
-                 overflow: hidden;
-             }
-
-
-
-
-
-
+position: absolute;
+  top: 70%;
+  left: 20%;
+  width: 60%;
+  height: 20%;
+line-height: 2;
+  z-index: auto;
+  border-left: solid #116860 5px;
+  border-right: solid #116860 5px;
 }
+.container1 h2 {
+
+color: #116860;
+text-shadow: black 2px 2px;
+}
+
+.redtext {
+
+  color: red;
+}
+
+
+
+
+
+/* footer */
+
+.footer {
+color: black;
+background-color: #202020;
+height:100px;
+position: absolute;
+bottom: 0px;
+left: 0px;
+width: 100%;
+text-align: center;
+}
+
+.footer .footerbottom {
+  background-color: #202020;
+  color: grey;
+  height: 50px;
+  text-align: center;
+  position:absolute;
+  bottom: 0px;
+  left: 0px;
+
+  width: 100%;
+}
+
+
+
+
+/* Media Queries */

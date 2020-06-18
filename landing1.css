@@ -1,0 +1,281 @@
+
+
+body {
+
+background: #232323;
+background-repeat: no-repeat;
+
+background-attachment: fixed;
+background-size: cover;
+background-blend-mode: lighten;
+}
+
+
+
+.title {
+
+  background-image: url(GameNut.png);
+  background-size: cover;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+height:100px;
+  width: 100px;
+  background-repeat: no-repeat;
+
+
+
+
+}
+.title img {
+
+  width:100%;
+  height:auto;
+
+
+
+}
+.bar {
+
+position: absolute;
+width: 100%;
+top:85%;
+height: 15%;
+left: 0%;
+background-color: orange;
+z-index: 11;
+
+
+}
+.bar marquee {
+  font-family: 'Black Ops One', cursive;
+
+
+  font-weight: bold;
+  font-size: 5vh;
+}
+
+.bsg {
+
+text-shadow: 10px 10px orange;
+  color: white;
+  position: absolute;
+  font-display: block;
+  font-weight: 1900;
+  font-style: oblique;
+  top: 10%;
+  left: 0%;
+  display: block;
+  float: none;
+  position: relative;
+  font-family: 'Lalezar', cursive;
+  z-index: 12;
+  opacity: .9;
+
+}
+
+.bsg h1 {
+  font-size: 200px;
+}
+
+
+
+
+.cont {
+  top: 45%;
+left: 5px;
+  display: grid;
+  grid-gap: 100px;
+  grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
+  grid-template-rows: repeat(8, 375px);
+
+position: absolute;
+
+width: 100%;
+
+height: 100vh;
+
+}
+
+.page {
+  word-wrap: break-word;
+  text-align: center;
+  color: orange;
+  font-size: 10vh;
+background-image: url(texture.jpg);
+border-radius: 20px;
+margin: auto;
+
+ }
+
+
+
+ .page1 {
+   top: 10%;
+   word-wrap: normal;
+   text-align: center;
+   color: orange;
+   font-size: 8vh;
+ background-image: url(texture.jpg);
+ border-radius: 20px;
+
+
+  }
+  .page2 {
+    text-align: center;
+    color: orange;
+    font-size: 10vh;
+  background-image: url(texture.jpg);
+  border-radius: 20px;
+
+   }
+   .page3 {
+     text-align: center;
+     color: orange;
+     font-size: 10vh;
+   background-image: url(texture.jpg);
+   border-radius: 20px;
+
+    }
+    .page4 {
+      text-align: center;
+      color: orange;
+      font-size: 10vh;
+    background-image: url(texture.jpg);
+    border-radius: 20px;
+
+     }
+     .page5 {
+       text-align: center;
+       color: orange;
+       font-size: 10vh;
+     background-image: url(texture.jpg);
+     border-radius: 20px;
+
+      }
+      .page6 {
+        text-align: center;
+        color: orange;
+        font-size: 10vh;
+      background-image: url(texture.jpg);
+      border-radius: 20px;
+
+       }
+       .page7 {
+         text-align: center;
+         color: orange;
+         font-size: 10vh;
+       background-image: url(texture.jpg);
+       border-radius: 20px;
+
+        }
+        .page8 {
+          text-align: center;
+          color: orange;
+          font-size: 10vh;
+        background-image: url(texture.jpg);
+        border-radius: 20px;
+
+         }
+         .page img {
+           height: 100%;
+             width: 100%;
+             transition: transform .8s cubic-bezier(.25,.46,.45,.94);
+           overflow: hidden;
+         }
+         .page:hover img {
+           transform: scale(1.1);
+           text-transform: capitalize;
+             display: block;
+             overflow: hidden;
+         }
+         .page1 img {
+           height: 100%;
+             width: 100%;
+             transition: transform .8s cubic-bezier(.25,.46,.45,.94);
+           overflow: hidden;
+         }
+         .page1:hover img {
+           transform: scale(1.1);
+           text-transform: capitalize;
+             display: block;
+             overflow: hidden;
+         }
+
+         .page2 img {
+           height: 100%;
+             width: 100%;
+             transition: transform .8s cubic-bezier(.25,.46,.45,.94);
+           overflow: hidden;
+         }
+         .page2:hover img {
+           transform: scale(1.1);
+           text-transform: capitalize;
+             display: block;
+             overflow: hidden;
+         }
+
+         .page3 img {
+           height: 100%;
+             width: 100%;
+             transition: transform .8s cubic-bezier(.25,.46,.45,.94);
+           overflow: hidden;
+         }
+         .page3:hover img {
+           transform: scale(1.1);
+           text-transform: capitalize;
+             display: block;
+             overflow: hidden;
+         }
+
+         .page4 img {
+           height: 100%;
+             width: 100%;
+             transition: transform .8s cubic-bezier(.25,.46,.45,.94);
+           overflow: hidden;
+         }
+         .page4:hover img {
+           transform: scale(1.1);
+           text-transform: capitalize;
+             display: block;
+             overflow: hidden;
+         }
+
+         .page5 img {
+           height: 100%;
+             width: 100%;
+             transition: transform .8s cubic-bezier(.25,.46,.45,.94);
+           overflow: hidden;
+         }
+         .page5:hover img {
+           transform: scale(1.1);
+           text-transform: capitalize;
+             display: block;
+             overflow: hidden;
+         }
+
+         .page6 img {
+           height: 100%;
+             width: 100%;
+             transition: transform .8s cubic-bezier(.25,.46,.45,.94);
+           overflow: hidden;
+         }
+         .page6:hover img {
+           transform: scale(1.1);
+           text-transform: capitalize;
+             display: block;
+             overflow: hidden;
+         }
+
+         .page7 img {
+           height: 100%;
+             width: 100%;
+             transition: transform .8s cubic-bezier(.25,.46,.45,.94);
+           overflow: hidden;
+         }
+         .page7:hover img {
+           transform: scale(1.1);
+           text-transform: capitalize;
+             display: block;
+             overflow: hidden;
+         }

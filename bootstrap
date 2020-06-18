@@ -1,0 +1,33 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+@media only screen and (max-width: 888px){
+
+
+
+
+
+
+  <div class = "title"><div class = "bsg"> <h1> BSGaming</h1></div>
+
+</div>
+<div class= "bar"> <marquee scrollamount = "15"> The Ultimate Gaming Hub | Chat With Fellow Gamers | Promote Your Content |
+  Get The Latest News | See Upcoming Games | Review Your Favourite Games |
+  Listen to Podcasts | Browse For Merchandise | And Much More! | </marquee> </div>
+
+  <div class = "cont">
+
+<a href = "home.html"><div class = page> <img src ="home.png"></div></a>
+<a href = "home.html"><div class = page1><img src ="podcasts.png"> </div></a>
+<a href = "home.html"><div class = page2><img src ="platforms.png"></div></a>
+<a href = "home.html"><div class = page3><img src ="esports.png"></div></a>
+<a href = "home.html"><div class = page5><img src ="hwex.png"></div></a>
+  <a href = "home.html"><div class = page4><img src ="forum.png"></div></a>
+<a href = "home.html"><div class = page6><img src ="vids.png"></div></a>
+<a href = "home.html"><div class = page7><img src ="merch.png"></div></a>
+
+
+</div>
+
+
+Yantramanav
+font-family: 'Yantramanav', sans-serif;
