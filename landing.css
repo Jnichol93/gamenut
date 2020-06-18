@@ -127,6 +127,9 @@ position: absolute;
 
 }
 .Enter:hover h3 {
+  cursor: crosshair;
+}
+.Enter:active h3 {
 
   opacity: 1;
   cursor: crosshair;
